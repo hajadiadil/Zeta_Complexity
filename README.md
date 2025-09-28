@@ -92,7 +92,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 📞 Contact
 Adil HAJADI 0032 07 53 69 04 91
-GitHub: hajadiadil
+GitHub: https://github.com/hajadiadil/Zeta_Complexity
 Email: hajadiadi@gmail.com
 
 "The universe appears to be computational at its core, with the fine structure constant α governing both physical processes and computational limits."
