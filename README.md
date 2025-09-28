@@ -15,17 +15,17 @@ Strong cross-domain correlation (ρ = 0.78) between computational and cosmologic
 Rigorous validation via phase randomization surrogates and non-arithmetic baselines.
 
 📁 Repository layout
-Text
-├─ src/
-│  ├─ zeta_coherence.py
-│  ├─ kernel_builder.py
-│  ├─ surrogate_test.py
-│  └─ utils.py
-├─ data/
-├─ notebooks/
-├─ results/
-├─ docs/
-└─ requirements.txt
+.
+├── src/
+│   ├── zeta_coherence.py
+│   ├── kernel_builder.py
+│   ├── surrogate_test.py
+│   └── utils.py
+├── data/
+├── notebooks/
+├── results/
+├── docs/
+└── requirements.txt
 
 
 
