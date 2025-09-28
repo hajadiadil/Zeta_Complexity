@@ -15,34 +15,18 @@ Strong cross-domain correlation (ρ = 0.78) between computational and cosmologic
 Rigorous validation via phase randomization surrogates and non-arithmetic baselines.
 
 📁 Repository layout
-.
-├─ papers/
-│  └─ Zeta_Complexe_Alpha.pdf           # manuscript (preprint draft)
+Text
 ├─ src/
-│  └─ zeta_coherence/
-│     ├─ kernels.py                     # prime-weighted kernels, phase generators
-│     ├─ coherence.py                   # sliding window, normalization, scoring
-│     ├─ surrogates.py                  # phase randomization at fixed spectrum
-│     └─ stats.py                       # p-values, CIs, simple QC plots
-├─ scripts/
-│  ├─ reproduce_all.sh                  # orchestrates all figures
-│  ├─ fig_01_overview.py
-│  ├─ fig_02_sat.py
-│  ├─ fig_03_pulsar_j0030.py
-│  ├─ fig_04_pulsar_j1713.py
-│  └─ fig_05_surrogates.py
-├─ source_data/                         # per-figure source data + checksums
-│  ├─ fig01.csv
-│  ├─ fig02.parquet
-│  └─ checksums.sha256
-├─ env/
-│  ├─ environment.yml                   # conda env
-│  └─ Dockerfile                        # reproducible runs
-├─ tests/                               # smoke tests for CI/local sanity
-├─ outputs/                             # created at runtime
-├─ README.md
-├─ LICENSE                              # MIT
-└─ CITATION.cff                         # optional (kept minimal)
+│  ├─ zeta_coherence.py
+│  ├─ kernel_builder.py
+│  ├─ surrogate_test.py
+│  └─ utils.py
+├─ data/
+├─ notebooks/
+├─ results/
+├─ docs/
+└─ requirements.txt
+
 
 
 1. Install Dependencies
