@@ -76,14 +76,6 @@ Analyze additional cosmological datasets (LIGO/Virgo, CMB)
 Develop α-inspired optimization algorithms
 Explore quantum computational implications
 
-@article{hajadi2025,
-  title={Universal Arithmetical Signature in NP-Hard Problems and Gravitational Wave Data: The Role of the Fine Structure Constant},
-  author={Hajadi, Adil},
-  year={2025},
-  journal={Preprint},
-  note={Under review}
-}
-
 🤝 Contributing
 We welcome contributions! Please open an issue or submit a pull request.
 
