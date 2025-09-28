@@ -93,7 +93,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 📞 Contact
 
 Adil HAJADI 
-0033 07 53 69 04 91
 
 GitHub: https://github.com/hajadiadil/Zeta_Complexity
 
