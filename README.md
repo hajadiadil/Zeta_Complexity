@@ -14,18 +14,36 @@ Statistically significant coherence scores (Z > 0.17) with p-values < 0.001.
 Strong cross-domain correlation (ρ = 0.78) between computational and cosmological data.
 Rigorous validation via phase randomization surrogates and non-arithmetic baselines.
 
-📁 Repository Structure
-text
-├── src/                    # Python source code
-│   ├── zeta_coherence.py   # Core coherence function
-│   ├── kernel_builder.py   # Arithmetic kernel construction
-│   ├── surrogate_test.py   # Statistical validation
-│   └── utils.py            # Data preprocessing & visualization
-├── data/                   # Example datasets (SAT traces, NANOGrav-like signals)
-├── notebooks/              # Jupyter notebooks for reproducibility
-├── results/                # Precomputed results and figures
-├── docs/                   # Supplementary documentation
-└── requirements.txt        # Python dependencies
+📁 Repository layout
+.
+├─ papers/
+│  └─ Zeta_Complexe_Alpha.pdf           # manuscript (preprint draft)
+├─ src/
+│  └─ zeta_coherence/
+│     ├─ kernels.py                     # prime-weighted kernels, phase generators
+│     ├─ coherence.py                   # sliding window, normalization, scoring
+│     ├─ surrogates.py                  # phase randomization at fixed spectrum
+│     └─ stats.py                       # p-values, CIs, simple QC plots
+├─ scripts/
+│  ├─ reproduce_all.sh                  # orchestrates all figures
+│  ├─ fig_01_overview.py
+│  ├─ fig_02_sat.py
+│  ├─ fig_03_pulsar_j0030.py
+│  ├─ fig_04_pulsar_j1713.py
+│  └─ fig_05_surrogates.py
+├─ source_data/                         # per-figure source data + checksums
+│  ├─ fig01.csv
+│  ├─ fig02.parquet
+│  └─ checksums.sha256
+├─ env/
+│  ├─ environment.yml                   # conda env
+│  └─ Dockerfile                        # reproducible runs
+├─ tests/                               # smoke tests for CI/local sanity
+├─ outputs/                             # created at runtime
+├─ README.md
+├─ LICENSE                              # MIT
+└─ CITATION.cff                         # optional (kept minimal)
+
 
 1. Install Dependencies
    pip install -r requirements.txt
